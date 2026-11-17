@@ -1,3 +1,4 @@
 # crypto-lab
 From-scratch symmetric crypto &amp; hash implementations
-当前状态：AES-128 Day 1 完成——四个轮函数已写出并对上 FIPS 官方向量（SubBytes/ShiftRows/MixColumns/AddRoundKey），待接密钥扩展与完整 10 轮（2026-11-16）
+
+当前状态：AES-128 加解密主流程打通——密钥扩展 + 完整 10 轮已通过 FIPS-197 官方向量（密文 3925841d...），待补解密（2026-11-17）
