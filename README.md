@@ -18,10 +18,9 @@ AES-128 加解密完整实现，通过 3 组 NIST 官方向量对拍（2026-11-1
 看到 "[OK] AES-128 加解密三组官方向量全部通过！" 即成功。
 
 ## 代码结构（按天存档）
-- code_by_day/day01_aes_core.py — 四个轮函数 + 状态转换
-- code_by_day/day02_aes_core.py — 密钥扩展 + 加密主循环
-- code_by_day/day03_aes_core.py — 逆变换 + 解密主循环 + 三组对拍
-- 复盘记录.md — 每日复盘笔记
+- aes_core.py — 四个轮函数 + 状态转换
+- day02_aes_core.py — 密钥扩展 + 加密主循环
+- day03_aes_core.py — 逆变换 + 解密主循环 + 三组对拍
 
 ## 踩过的坑
 - 状态是列优先 data[r+4*c]，行优先会全错
